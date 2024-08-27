@@ -31,3 +31,7 @@ Given more time, there are several improvements that could be made to the applic
 2. **Realistic Noise and Blur Patterns**: Improve the realism by moving beyond a simple Gaussian model for noise and blur patterns.
 
 3. **Cell-Wise Blur Patterns**: Although it's unclear why different cells would exhibit different blur patterns given the same distance from the camera or microscope lens, observed sample data shows variability in cell blurring.
+
+## My Feelings
+
+I feel that the current algorithm does a reasonable job in creating samples similar to that in the provided document. However, I believe there was potential to achieve better results if more sample data were available to mimic the distribution of different parameters in the synthetic dataset. Additionally, there is some scope for tuning how adjustments to the parameters affect the resulting image. Currently, it takes significant manual effort to adjust parameters to achieve realistic images. These parameters could be more constrained and tied to each other to consistently produce reasonably realistic images.
